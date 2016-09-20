@@ -8,7 +8,7 @@ public class Account {
 	}
 	
 	public Account( String accountNo ){
-		this.setAccountNo( accountNo ); //왜 안될까? setAccountNo 이용 하고 싶은데
+		setAccountNo( accountNo ); //왜 안될까? setAccountNo 이용 하고 싶은데
 		//this.accountNo = accountNO; 
 		System.out.println( this.accountNo + "계좌가 개설되었습니다.");
 	}
